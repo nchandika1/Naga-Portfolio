@@ -1,8 +1,8 @@
 .About-content {
 	color: white;
-	font-family: 'Roboto', sans-serif;
-	padding: 50px;
-	font-weight: normal;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 10px 50px;
+	font-weight: small;
 }
 
 .About-style {
@@ -26,4 +26,8 @@
     content: "";
     clear: both;
     display: table;
+}
+
+.Edu-title {
+	text-decoration: underline;
 }
