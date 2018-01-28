@@ -1,0 +1,28 @@
+.About-content {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding: 50px;
+}
+
+.About-style {
+	border: 10px solid #222;
+}
+
+.About-title {
+	color: white;
+	font-family: 'Courgette', cursive;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 50px;
+}
+
+.About-image {
+	float: left;
+	padding: 0 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
