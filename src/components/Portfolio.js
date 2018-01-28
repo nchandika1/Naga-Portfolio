@@ -1,10 +1,9 @@
 import React, {Component}  from 'react';
 import NavMenu from './NavMenu.js';
-import Footer from './Footer.js';
 import About from './pages/About/About.js';
-import Blog from './pages/Blog.js';
-import Contact from './pages/Contact.js';
-import Home from './pages/Home.js';
+import Blog from './pages/Blog/Blog.js';
+import Contact from './pages/Contact/Contact.js';
+import Home from './pages/Home/Home.js';
 import './Portfolio.css';
 
 

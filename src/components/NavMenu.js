@@ -17,7 +17,7 @@ class NavMenu extends React.Component {
 		return (
 			<div className="menuStyle">
 				<a className="menuOptionStyle" onClick={() => this.handleClick('Home')}>
-					<img className="Home-image" src={home} />
+					<img className="Home-image" src={home} alt="Home" />
 				</a>
 				<a className="menuOptionStyle" onClick={() => this.handleClick('About')}>About</a>
 				<a className="menuOptionStyle" onClick={() => this.handleClick('Blog')}>Blog</a>
