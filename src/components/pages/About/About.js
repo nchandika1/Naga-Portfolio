@@ -5,7 +5,7 @@ import './About.css';
 const Home = () => {
 	console.log("Inside Home");
 	return (
-		<div>
+		<div style={{overflow: 'auto'}}>
 			<div className="clearfix About-style">
 				<img className="About-image" src={naga} alt="Naga" />
 				<p className="About-title">Full stack developer</p>
@@ -19,7 +19,7 @@ const Home = () => {
 					Please do checkout my Portfolio under <span style={{color: '#66dbf9'}}>Blog.</span></p>
 					<p>Prior to this, I have done years of embedded software development in the area of Networking at <em>Cisco</em> and <em>Apple</em>.
 					I hold multiple patents in the area of Layer 2 Switching Software for Cisco Catalyst switches.
-					Details of my work experience are in my <em>Resume</em> on the <span style={{color: '#66dbf9'}}>Contact</span> page.
+					Details of my work experience are in my <i>Resume</i> on the <span style={{color: '#66dbf9'}}>Contact</span> page.
 					</p>
 			</div>
 			<div className="About-content">

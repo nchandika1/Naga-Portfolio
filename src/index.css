@@ -2,6 +2,7 @@ body {
   margin-bottom: 40px;
   width: 100%;
   background-color: #222;
+  opacity: 0.8;
 }
 
 html {
