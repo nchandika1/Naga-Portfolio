@@ -12,8 +12,7 @@
   position: relative;
   background-color: #222;
   color: white;
-/*  line-height: 100px;
-*/}
+}
 
 .App-title {
   position: absolute;
@@ -29,4 +28,17 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.Trademark {
+  font-weight: small;
+  font-size: 15px;
+  animation: example 5s linear 2s infinite alternate;
+}
+
+@keyframes example {
+    0%   {color: lightgray;}
+    25% {color: green;}
+    50%   {color: lightgray;}
+    100% {color: green;}
 }

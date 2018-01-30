@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <span className="App-title">Naga's Portfolio</span>
+          <span className="App-title">Naga's Portfolio <span className="Trademark">(Powered by React™)</span></span>
           <Social />
         </header>
         <Portfolio />
