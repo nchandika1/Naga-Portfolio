@@ -1,3 +1,23 @@
 .Blog-content {
 	color:white;
+	padding: 50px;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	height: 100px;
+	color: dimgray;
+	border: 2px solid dimgray;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+
+}
+
+td {
+	height: 50px;
+	border: 2px solid dimgray;
 }
